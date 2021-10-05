@@ -1,11 +1,33 @@
 img {
     max-height: 200px;
 }
-
+body  {
+    background-image: url("assets/PatrickStar.jpeg");
+    background-color: #cccccc;
+}
 html {
-    background-color: aquamarine;
+    background-color: transparent;
+
+}
+p {
+    text-align: center;
+    align-content: center;
 }
 
 figure {
     text-align: center;
+}
+a[href^="https"]::before {
+    content: "🤣";
+}
+h2 {
+    text-align: center;
+    mix-blend-mode: overlay;
+    border: gold;
+}
+h1 {
+    text-align: center;
+}
+iframe {
+    align-items: center;
 }
